@@ -9,3 +9,9 @@ int score = 0;
 int highScore = 0;       // Riwayat skor tertinggi
 bool newHighScore = false; // Penanda rekor baru
 int variasi = 0;
+
+// Konfigurasi pipa berderet dilayar
+const int JUMLAH_PIPA = 3;
+int pipeX [JUMLAH_PIPA];
+int pipeTop[JUMLAH_PIPA];
+bool sudahLewat[JUMLAH_PIPA];
